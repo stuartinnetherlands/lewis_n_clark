@@ -1,0 +1,25 @@
+load 'unit.rb'
+load 'locationoccupiederror.rb'
+load 'terrain.rb'
+load 'matrix.rb'
+load 'map.rb'
+load 'dinosaur.rb'
+load 'human.rb'
+load 'doctor.rb'
+load 'fake_game.rb'
+load 'fake_player.rb'
+
+load  'nil_class.rb'
+load 'soldier.rb'
+load 't_rex.rb'
+
+
+load 'v_raptor.rb'
+
+
+player = FakePlayer.new
+player.game = FakeGame.new
+player.game.map = Map.new(terrain_key, layout)
+dixie = Unit.new(player, "Dixie")
+player.game.map.place(dixie, 0, 0)
+dixie.move(1, 0)

@@ -1,0 +1,2 @@
+class LocationOccupiedError < Exception
+end

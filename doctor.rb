@@ -1,0 +1,2 @@
+class Doctor < Human
+end

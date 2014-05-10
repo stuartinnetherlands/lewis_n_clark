@@ -1,0 +1,2 @@
+class VRaptor < Dinosaur
+end

@@ -1,0 +1,2 @@
+class TRex < Dinosaur
+ end
